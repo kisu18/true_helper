@@ -1,9 +1,9 @@
-# 🚨 SafeZone – Emergency Assistant App
+# 🚨 TrueHelper – Emergency Assistant App
 
-**SafeZone** is a modern, responsive React-based emergency assistant web app that helps users share their location, view helpful emergency tips, check network status, and preview their position on a live map.
+**TrueHelper** is a modern, responsive React-based emergency assistant web app that helps users share their location, view helpful emergency tips, check network status, and preview their position on a live map.
 
 ### 🌐 Live Demo
-[Click here to view the live app](https://safezone-app.vercel.app)
+[Click here to view the live app](https://true-helper.vercel.app/)
 
 ---
 
@@ -38,7 +38,7 @@
 ## 📂 Project Structure
 
 ```
-safezone-frontend/
+true_helper/
 ├── public/
 ├── src/
 │   ├── components/
@@ -51,8 +51,7 @@ safezone-frontend/
 │   ├── App.css
 │   └── main.jsx
 ├── package.json
-└── vite.config.js
-```
+
 
 ---
 
@@ -60,7 +59,7 @@ safezone-frontend/
 
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/safezone-app.git
+git clone https://github.com/kisu18/true_helper
 cd safezone-app
 
 # Install dependencies
@@ -85,15 +84,6 @@ This app is deployed on **Vercel**. It uses:
 
 - OpenStreetMap for map tiles
 - MDN Web Docs for Web API documentation
-
----
-
-## 🧑‍🎓 Ideal For
-
-This project is perfect for:
-- College portfolio submissions
-- Frontend/web developer interviews
-- Demonstrating real-world use of browser APIs
 
 ---
 
