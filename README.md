@@ -25,7 +25,7 @@
 - React (via Vite)
 - React Router
 - Leaflet (map preview)
-- Tailwind CSS (optional styling)
+- CSS (optional styling)
 
 ### 🌐 Web APIs
 - ✅ [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)
@@ -60,7 +60,7 @@ true_helper/
 ```bash
 # Clone the repo
 git clone https://github.com/kisu18/true_helper
-cd safezone-app
+cd true_helper
 
 # Install dependencies
 npm install
