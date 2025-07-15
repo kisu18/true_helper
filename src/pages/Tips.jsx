@@ -15,12 +15,18 @@ export default function Tips() {
     return () => tipsRef.current.forEach((el) => el && observer.unobserve(el));
   }, []);
 
-  const tips = [
-    "Stay in open areas",
-    "Use flashlight to signal",
-    "Save battery life",
-    "Send location to emergency contact",
-  ];
+const tips = [
+  "🆘 Dial 112: It's the universal emergency number in India and many countries.",
+  "📍 Share live location: Use WhatsApp or Maps to share real-time location with trusted contacts.",
+  "🔋 Conserve phone battery: Lower brightness, close unused apps, and turn on battery saver.",
+  "🚨 Use phone flashlight to signal rescuers at night — 3 long flashes = SOS.",
+  "🗺️ Know nearby hospitals & police stations — use Google Maps' offline mode.",
+  "🥶 In cold climates, layer clothes and cover extremities to avoid hypothermia.",
+  "🔥 In a fire, stay low to the ground to avoid smoke — crawl if needed.",
+  "🐍 Bitten by a snake? Stay calm, immobilize the limb, and seek help immediately — don’t suck the venom.",
+  "🌊 Caught in a rip current? Swim parallel to the shore, not against the current.",
+  "👃 Smell gas? Don’t use electronics or light flames. Exit immediately and call your gas provider or fire dept.",
+];
 
   return (
     <div className="container">
